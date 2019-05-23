@@ -1,6 +1,8 @@
 ---
-layout: post
+layout: single
 title: What Led me Here
+header:
+    image: assets/images/john-towner-117317-unsplash.jpg
 ---
 
 For my first post, I thought I would give a little bit of background on myself, in non-tabular format.  
