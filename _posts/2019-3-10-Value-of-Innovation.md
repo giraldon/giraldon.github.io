@@ -34,7 +34,7 @@ The presentation containing all of the visuals I created in tableau, as well as 
 The video of my presentation is located [here](https://livestream.com/metis/events/8360820/videos/180566594). This is from the livestream of presentations given on our final projects at Metis.   
 **My presentation starts at ~17:45**
   
-Any questions feel free to contact me at nicolas.giraldowingler@gmail.com  
+Any questions feel free to contact me at [nicolas.giraldowingler@gmail.com](mailto:nicolas.giraldowingler.com)  
 
 ***  
 
