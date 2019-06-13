@@ -1,6 +1,10 @@
 ---
 layout: single
 title: "The Value of Innovation: Using Worldwide Patent Data to Compare Patents Based on Value"
+tags: Project Regression NLP
+#toc: true
+#toc_label: Contents
+classes: wide
 excerpt: "For this project, I attempted to tie patent value to easily-attainable patent data, with the goal of motivating companies to think more long-term" 
 header:
     overlay_image: https://images.unsplash.com/photo-1532094349884-543bc11b234d
@@ -16,18 +20,18 @@ Companies, and in turn, investors, have become more and more short-term oriented
 
 This is a graph from [this paper](https://github.com/giraldon/patent-regression/blob/master/Patents%20Data/SSRN-id2837524.pdf), I think it drives home the point of this exercise, which is to apply a value to innovation in order to encourage long-term thinking, and allow companies to justify R&D spending.  
 
-### Project Info ###  
+### Project Info ###   
 
 [This](https://github.com/giraldon/patent-regression/blob/master/Patents_Topics_Regression_Desktop.ipynb) is a notebook which runs through the project step-by-step as a whole.  
   
-Data was obtained from [Google's Patent Data](https://console.cloud.google.com/marketplace/details/google_patents_public_datasets/google-patents-research-data?filter=solution-type:dataset&q=google%20patents%20public%20datasets&id=4154f240-a4fb-461b-ac9d-2003ea3d107e) hosted on BigQuery
+Data was obtained from [Google's Patent Data](https://console.cloud.google.com/marketplace/details/google_patents_public_datasets/google-patents-research-data?filter=solution-type:dataset&q=google%20patents%20public%20datasets&id=4154f240-a4fb-461b-ac9d-2003ea3d107e) hosted on BigQuery. 
   
-Initially, my goal was to create a model which would predict the value of a given patent, by building a regression model around ground-truth values which were obtained from [this paper](https://github.com/giraldon/patent-regression/blob/master/SSRN-id2193068.pdf).  
+*Initially*, my goal was to create a model which would predict the value of a given patent, by building a regression model around ground-truth values which were obtained from [this paper](https://github.com/giraldon/patent-regression/blob/master/SSRN-id2193068.pdf).  
 However, I eventually found that I could not correlate the patent metadata strongly enough with the ground-truth values to justify predicting the exact value of any given patent.  
   
-Despite this, the project was very useful for visualizing which companies have put out the most valuable patents, and comparing across companies. By correlating this with R&D spending, companies could use this data to ballpark return on investment.  Furthermore, I was able to determine the most valuable patent topics, to a certain degree, which allowed for an easy visual comparison on a technology basis.  
+Despite this, the project was still very useful for visualizing which companies have put out the most valuable patents, and comparing across companies based on relative innovation value. By correlating this with R&D spending, companies could use this data to ballpark return on investment.  Furthermore, I was able to determine the most valuable patent topics, to a certain degree, which allowed for an easy visual comparison on a technology basis.  
 
-This data would still be valuable to companies looking for their next move, or at least to put a ballpark value on a given technology or investment. While this does not solve the problem I posed in the beginning, it certainly helps. 
+This project would be valuable to companies looking for their next move, or at least looking to put a ballpark value on a given technology or investment. While this does not solve the problem I posed in the beginning, it certainly helps. 
   
 The presentation containing all of the visuals I created in tableau, as well as a general narrative is available [here](https://github.com/giraldon/patent-regression/blob/master/Patent_design%20(2).pdf)  
   
@@ -36,10 +40,8 @@ The video of my presentation is located [here](https://livestream.com/metis/even
   
 Any questions feel free to contact me at [nicolas.giraldowingler@gmail.com](mailto:nicolas.giraldowingler.com)  
 
-***  
-
 ## Some interesting Results ##  
-
+<br>
 {% include figure image_path="/assets/images/companybubblefull.png" alt="Company Patent Values" caption="Company Patent Values  - [Full Viz](https://public.tableau.com/views/companypatentvalues/Sheet1?:embed=y&:display_count=yes&:origin=viz_share_link)" %}
 
 This bubble chart shows the most valuable companies relative to each other by the value of their patent portfolios. This and all following charts were created in Tableau:   

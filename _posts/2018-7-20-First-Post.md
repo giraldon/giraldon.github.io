@@ -1,6 +1,8 @@
 ---
 layout: single
 title: What Led me Here
+classes: wide
+tags: Text
 header:
     image: assets/images/john-towner-117317-unsplash.jpg
 ---
