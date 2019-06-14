@@ -7,7 +7,7 @@ tags: Project Regression NLP
 classes: wide
 excerpt: "For this project, I attempted to tie patent value to easily-attainable patent data, with the goal of motivating companies to think more long-term" 
 header:
-    overlay_image: https://images.unsplash.com/photo-1532094349884-543bc11b234d
+    overlay_image: assets/images/beakers.jpeg
     overlay_filter: 0.5
 ---
 ### My Motivation for the Project ###  
